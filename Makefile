@@ -1,33 +1,20 @@
-.DEFAULT_GOAL := help
-.PHONY: transcript help
+# Minimal makefile for Sphinx documentation
+#
 
-transcript:
-	@touch "${FILE_PATH}"
-	@echo "# ${TITLE}"  >> "${FILE_PATH}"
-	@echo               >> "${FILE_PATH}"
-	@echo 标题：         >> "${FILE_PATH}"
-	@echo               >> "${FILE_PATH}"
-	@echo 日期：         >> "${FILE_PATH}"
-	@echo               >> "${FILE_PATH}"
-	@echo 作者：         >> "${FILE_PATH}"
-	@echo               >> "${FILE_PATH}"
-	@echo 链接：         >> "${FILE_PATH}"
-	@echo               >> "${FILE_PATH}"
-	@echo "注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。" >> "${FILE_PATH}"
-	@echo               >> "${FILE_PATH}"
-	@echo "-------"     >> "${FILE_PATH}"
-	@echo               >> "${FILE_PATH}"
-	@echo done.
+# You can set these variables from the command line, and also
+# from the environment for the first two.
+SPHINXOPTS    ?=
+SPHINXBUILD   ?= sphinx-build
+SOURCEDIR     = .
+BUILDDIR      = _build
 
-# 空格也是没问题的，比如：make transcript Linux 是如何使用我的 RAM 的？
-# 也可以使用双引号：make transcript "Linux 是如何使用我的 RAM 的？"
+# Put it first so that "make" without argument is like "make help".
 help:
-	@echo "usage: make transcript <title>"
+	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-# Did nothing wrong!
-%:
-	@:
+.PHONY: help Makefile
 
-INPUT := $(wordlist 2, $(words $(MAKECMDGOALS)), $(MAKECMDGOALS))
-TITLE := $(INPUT)
-FILE_PATH := archives/$(TITLE).md
+# Catch-all target: route all unknown targets to Sphinx using the new
+# "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
+%: Makefile
+	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)

@@ -1,0 +1,24 @@
+{% extends 'default.html' %}
+{% block mainLayout %}
+
+	{% if landing_page.menu is defined %}
+		<nav class="navbar">
+			<ul>
+				{% for item in landing_page.menu %}
+					<li><a href="{{ item.url }}">{{ item.title }}</a></li>	
+				{% endfor %}
+				{% if theme_github_url %}
+					<li class="github"><a href="{{ theme_github_url }}" class="fa fa-github-alt"></a></li>	
+				{% endif %}
+			</ul>
+		</nav>
+	{% endif %}
+
+	<div class="container">
+		<div class="rst-content">
+			{% block body %}{% endblock %}
+			{% include "footer.html" %}
+		</div>
+	</div>
+	
+{% endblock %}

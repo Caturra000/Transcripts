@@ -1,0 +1,24 @@
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+	<ul class="wy-breadcrumbs">
+		{% block breadcrumbs %}
+			{% if project == title %}
+				<li><a href="{{ pathto(master_doc) }}">{{ project }}</a></li>
+			{% else %}
+				<li><a href="{{ pathto(master_doc) }}">{{ project }}</a> ⁄&nbsp;</li>
+				{% for doc in parents %}
+					<li><a href="{{ doc.link|e }}">{{ doc.title }}</a> ⁄&nbsp;</li>
+				{% endfor %}
+				<li><a href="">{{ title }}</a></li>
+			{% endif %}
+		{% endblock %}
+		{% block breadcrumbs_aside %}
+			<li class="wy-breadcrumbs-aside">
+			{% if theme_github_url %}
+				<a href="{{ theme_github_url }}" class="fa fa-github-alt"></a>
+			{% endif %}
+			</li>
+		{% endblock %}
+	</ul>
+
+</div>

@@ -1,0 +1,61 @@
+<footer>
+  {% if (next or prev) and landing_page is defined and pagename != master_doc %}
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      {% if next %}
+        <a href="{{ next.link|e }}" class="btn btn-neutral float-right" title="{{ next.title|striptags|e }}" accesskey="n" rel="next">{{ _('Next') }} &nbsp;<b>⟶</b></a>
+      {% endif %}
+      {% if prev %}
+        <a href="{{ prev.link|e }}" class="btn btn-neutral float-left" title="{{ prev.title|striptags|e }}" accesskey="p" rel="prev"><b>⟵</b>&nbsp; {{ _('Previous') }}</a>
+      {% endif %}
+    </div>
+  {% endif %}
+
+  <div role="contentinfo">
+    <p>
+    {%- if show_copyright %}
+      {%- if hasdoc('copyright') %}
+        {% set path = pathto('copyright') %}
+        {% set copyright = copyright %}
+        &copy; <a href="{{ path }}">{% trans %}Copyright{% endtrans %}</a> {{ copyright }}
+      {%- else %}
+        {% set copyright = copyright %}
+        &copy; {% trans %}Copyright{% endtrans %} {{ copyright }}
+      {%- endif %}
+    {%- endif %}
+
+    {%- if build_id and build_url %}
+      <span class="build">
+        {# Translators: Build is a noun, not a verb #}
+        {% trans %}Build{% endtrans %}
+        <a href="{{ build_url }}">{{ build_id }}</a>.
+      </span>
+    {%- elif commit %}
+      <span class="commit">
+	  	&mdash;
+        {# Translators: the phrase "revision" comes from Git, referring to a commit #}
+        {% trans %}Revision{% endtrans %} <code>{{ commit }}</code>.
+      </span>
+    {%- endif %}
+    
+
+	{%- if show_sphinx %}
+	  <br>
+      {% set sphinx_web = '<a href="https://www.sphinx-doc.org/">Sphinx</a>' %}
+      {% set readthedocs_web = '<a href="https://github.com/revitron">Revitron</a>' %}
+      {# Translators: the variable "sphinx_web" is a link to the Sphinx project documentation with the text "Sphinx" #}
+      {% trans sphinx_web=sphinx_web, readthedocs_web=readthedocs_web %}Built with {{ sphinx_web }} using a{% endtrans %}
+      {# Translators: "theme" refers to a theme for Sphinx, which alters the appearance of the generated documenation #}
+      <a href="https://github.com/revitron/revitron-sphinx-theme">{% trans %}theme{% endtrans %}</a>
+      {# Translators: this is always used as "provided by Read the Docs", and should not imply Read the Docs is an author of the generated documentation. #}
+      {% trans %}provided by {{ readthedocs_web }}{% endtrans %}.
+    {%- endif %}
+
+    </p>
+  </div>
+
+  
+
+  {%- block extrafooter %} {% endblock %}
+
+</footer>
+
