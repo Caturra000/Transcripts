@@ -52,3 +52,5 @@ if os.getenv('CATURRA_SPHINX_DEBUG') is not None:
     print("NOTE: 本地调试模式，链接后缀设置为.html")
 else:
     html_link_suffix = '/'
+
+html_title = 'Caturra的中文转录小站'

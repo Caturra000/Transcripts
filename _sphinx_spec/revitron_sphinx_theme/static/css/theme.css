@@ -4904,8 +4904,8 @@ pre{
     margin:0;
     padding:0;
     /* bluepuni: larger, add opcaity. */
-    height:7rem!important;
-    max-height:7rem;
+    height:7.7rem!important;
+    max-height:7.7rem;
     transition: opacity 0.3s ease;
     width:auto;
     border-radius:0;
@@ -5043,6 +5043,7 @@ pre{
     --bg-code:hsl(var(--hue),var(--sat),96.5%);
     --bg-code-highlight:hsl(var(--hue),var(--sat),93%);
     --bg-panel:var(--bg-code);
+    --bg-tooltip:hsl(var(--hue),var(--sat),95%);
     --text:hsl(var(--hue),var(--sat),22%);
     --strong-text: black;
     --link:inherit;
@@ -5076,6 +5077,7 @@ html.dark{
     --bg-code:hsl(var(--hue),var(--sat),17%);
     --bg-code-highlight:hsl(var(--hue),var(--sat),21%);
     --bg-panel:var(--bg-code);
+    --bg-tooltip:hsl(var(--hue),var(--sat),20%);
     --text:hsl(var(--hue),var(--sat),94%);
     --strong-text: white;
     --link:inherit;
@@ -5182,4 +5184,41 @@ html.dark{
 }
 .highlight .gd,.highlight .gi,.highlight .w{
     font-weight:500
+}
+
+/* bluepuni: for uni */
+.uni-img-container {
+    position: relative;
+    display: inline-block;
+}
+.uni-tooltip-bubble {
+    position: absolute;
+    top: calc(100% - 40px);
+    left: 50%;
+    transform: translateX(-50%) translateY(10px);
+    background: hsl(var(--hue),var(--sat),95%);
+    color: var(--text);
+    padding: 0.3rem 0.6rem; 
+    border-radius: 10px; 
+    font-size: 0.8rem; 
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.1s ease;
+    z-index: 100;
+}
+.uni-tooltip-bubble::before {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 4px; 
+    border-style: solid;
+    border-color: transparent transparent hsl(var(--hue),var(--sat),95%) transparent;
+}
+.uni-img-container:hover a .uni-tooltip-bubble {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+    pointer-events: auto;
 }

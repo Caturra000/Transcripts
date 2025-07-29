@@ -102,10 +102,11 @@
 			<div class="wy-side-scroll">
 				<div class="wy-side-nav-search">
 					{% block sidebartitle %}
-						<div class="brand">
+						<div class="brand uni-img-container">
 							<a href="{{ pathto(master_doc) }}">
 							{# bluepuni: hardcoded for lazy person. #}
-							<img src="/_static/blackpuni.png" class="logo" alt="{{ _('Logo') }}"/>
+							<img src="/_static/uni.png" class="logo" alt="{{ _('Logo') }}"/>
+							<div class="uni-tooltip-bubble">这是海胆（uni）</div>
 							</a>
 						</div>
 						{% include "searchbox.html" %}
