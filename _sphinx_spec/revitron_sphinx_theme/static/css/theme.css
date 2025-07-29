@@ -85,15 +85,21 @@ sup{
 sub{
     bottom:-.25em
 }
+/* bluepuni begin: workaround for markdown. */
 dl,ol,ul{
-    margin:0;
-    padding:0;
-    list-style:none;
-    list-style-image:none
+    padding:0 !important;
 }
 li{
-    list-style:none
+    padding:0 !important;
 }
+dl>p,
+ol>p,
+ul>p,
+li>p {
+    margin-bottom:0 !important;
+    padding:0 !important;
+}
+/* bluepuni end */
 dd{
     margin:0
 }
@@ -3409,7 +3415,13 @@ a.wy-text-danger:hover{
 p{
     line-height:1.6em;
     font-size:1rem;
-    margin:0 0 1.6em
+    margin:0 0 1.6em;
+    /* bluepuni: need alignment for reading. */
+    text-align: justify;
+}
+/* bluepuni: for better reading. */
+p strong {
+    color: var(--strong-text);
 }
 h1{
     font-size:175%
@@ -4891,12 +4903,17 @@ pre{
     display:block;
     margin:0;
     padding:0;
-    height:4.25rem!important;
-    max-height:4.25rem;
+    /* bluepuni: larger, add opcaity. */
+    height:7rem!important;
+    max-height:7rem;
+    transition: opacity 0.3s ease;
     width:auto;
     border-radius:0;
     max-width:100%;
     background:transparent
+}
+.wy-side-nav-search .brand>a img.logo:hover {
+    opacity: 0.8;
 }
 .wy-nav .wy-menu-vertical a,.wy-nav .wy-menu-vertical header{
     color:var(--text)
@@ -5027,6 +5044,7 @@ pre{
     --bg-code-highlight:hsl(var(--hue),var(--sat),93%);
     --bg-panel:var(--bg-code);
     --text:hsl(var(--hue),var(--sat),22%);
+    --strong-text: black;
     --link:inherit;
     --nav:var(--text);
     --nav-current:var(--bg);
@@ -5059,6 +5077,7 @@ html.dark{
     --bg-code-highlight:hsl(var(--hue),var(--sat),21%);
     --bg-panel:var(--bg-code);
     --text:hsl(var(--hue),var(--sat),94%);
+    --strong-text: white;
     --link:inherit;
     --nav:hsl(var(--hue),var(--sat),52%);
     --code:hsl(var(--hue),var(--sat),86%);

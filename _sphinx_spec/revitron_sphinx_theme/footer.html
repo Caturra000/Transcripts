@@ -10,16 +10,17 @@
     </div>
   {% endif %}
 
+  {# bluepuni: Use copyleft rather than copyright. #}
   <div role="contentinfo">
     <p>
     {%- if show_copyright %}
       {%- if hasdoc('copyright') %}
         {% set path = pathto('copyright') %}
         {% set copyright = copyright %}
-        &copy; <a href="{{ path }}">{% trans %}Copyright{% endtrans %}</a> {{ copyright }}
+        🄯 <a href="{{ path }}">Copyleft</a> {{ copyright }}
       {%- else %}
         {% set copyright = copyright %}
-        &copy; {% trans %}Copyright{% endtrans %} {{ copyright }}
+        🄯 Copy<u>left</u> {{ copyright }}
       {%- endif %}
     {%- endif %}
 

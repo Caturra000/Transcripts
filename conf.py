@@ -35,18 +35,13 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_static_path = ['_static']
 
-html_theme_options = {
-    'color_scheme': 'dark'
-}
-
 source_suffix = {
     '.rst': 'restructuredtext',
     '.md': 'markdown',
 }
 
 html_theme_options = {
-    'navigation_depth': 5,
-	'color_scheme': 'dark'
+    'navigation_depth': 5
 }
 
 # 生产模式开启 Jekyll 风味
