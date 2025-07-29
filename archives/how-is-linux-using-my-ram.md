@@ -1,4 +1,4 @@
-# Linux是如何使用我的内存的？
+# Linux 是如何使用我的内存的？
 
 标题：How is Linux using my RAM?
 

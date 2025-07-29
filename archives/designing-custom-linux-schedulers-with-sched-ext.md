@@ -1,6 +1,6 @@
-# 使用 sched_ext 设计自定义 Linux 调度器
+# 使用 sched_ext 定制 Linux 调度器
 
-标题：Mentorship Session: Designing Custom Linux Schedulers with sched_ext
+标题：Designing Custom Linux Schedulers with sched_ext
 
 日期：2025/01/23
 

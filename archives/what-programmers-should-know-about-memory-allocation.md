@@ -1,4 +1,4 @@
-# 程序员应该了解的内存分配
+# 程序员应该了解的内存分配知识
 
 标题：What Programmers Should Know About Memory Allocation
 
@@ -9,6 +9,8 @@
 链接：[https://www.youtube.com/watch?v=gYfd25Bdmws](https://www.youtube.com/watch?v=gYfd25Bdmws)
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
+
+备注：标题 neta 了著名的《What Every Programmer Should...》文章，其实两篇是不同的。
 
 -------
 

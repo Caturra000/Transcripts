@@ -1,6 +1,6 @@
-# 案例研究：并发计数——简单如一二三！
+# 并发计数，简单如一二三！
 
-标题：Case Study: Concurrent Counting, As Easy as 1, 2, 3!
+标题：Case Study: Concurrent Counting—As Easy as 1, 2, 3!
 
 日期：2024/10/01
 

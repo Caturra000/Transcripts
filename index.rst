@@ -9,13 +9,31 @@
    :glob:
    :caption: ARCHIVES
 
-   archives/*
+   archives/hidden-overhead-of-a-function-api.md
+   archives/concurrent-counting-as-easy-as-1-2-3.md
+   archives/hunting-heisenbugs.md
+   archives/how-is-linux-using-my-ram.md
+   archives/so-you-think-you-can-hash.md
+   archives/can-applications-recover-from-fsync-failures.md
+   archives/a-deep-dive-into-dispatching-techniques-in-cpp.md
+   archives/designing-custom-linux-schedulers-with-sched-ext.md
+   archives/what-programmers-should-know-about-memory-allocation.md
+   archives/unraveling-rcu-usage-mysteries-additional-use-cases.md
+   archives/finding-sources-of-latency-on-your-linux-system.md
+   archives/perfect-hashing-in-an-imperfect-world.md
+   archives/more-than-a-rehash.md
+   archives/zoned-namespaces-bringing-zones-to-nvme-ssds.md
+   archives/cpp-exceptions-for-smaller-firmware.md
 
-中文转录小站 documentation
+Welcome
 ==============================
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
+欢迎来到中文转录小站。
 
+主站：https://www.bluepuni.com
 
+仓库：https://github.com/Caturra000/Transcripts
+
+本小站仅用于存放转录稿件，侧边栏就是所有文章。
+
+建议前往仓库阅读 README 文件。
