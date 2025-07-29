@@ -18,9 +18,10 @@ help:
 	@echo "=======sphinx======="
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
+# make server 为调试模式，影响 conf.py 对文件后缀的处理
 server:
 	@make clean
-	@make html
+	@export CATURRA_SPHINX_DEBUG=1 && make html
 	python3 -m http.server 4000 -d _build/html/
 
 .PHONY: help Makefile server

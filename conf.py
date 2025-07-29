@@ -49,3 +49,11 @@ html_theme_options = {
 	'color_scheme': 'dark'
 }
 
+# 生产模式开启 Jekyll 风味
+# 调试模式保持默认 .html 后缀
+# 调试模式通过环境变量开启
+if os.getenv('CATURRA_SPHINX_DEBUG') is not None:
+    html_link_suffix = '.html'
+    print("NOTE: 本地调试模式，链接后缀设置为.html")
+else:
+    html_link_suffix = '/'
