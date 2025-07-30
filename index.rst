@@ -9,6 +9,9 @@
    :glob:
    :caption: ARCHIVES
 
+   archives/fast-and-small-cpp.md
+   archives/fast-uprobes.md
+   archives/erofs-past-present-and-future.md
    archives/hidden-overhead-of-a-function-api.md
    archives/concurrent-counting-as-easy-as-1-2-3.md
    archives/hunting-heisenbugs.md
