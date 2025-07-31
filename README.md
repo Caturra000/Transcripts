@@ -16,4 +16,4 @@
 
 不要用油管字幕，效果很差。
 
-顺便提一下目前测试的长文本转录效果排名： deepseek > gemini > minmax >> kimi >>>>>>> ChatGPT。
+顺便提一下目前测试的长文本转录效果排名： deepseek > gemini > minmax >> kimi >>>>>>> ChatGPT💩。
