@@ -9,6 +9,8 @@
    :glob:
    :caption: ARCHIVES
 
+   archives/llvm-optimization-remarks.md
+   archives/std-find-is-broken.md
    archives/fast-and-small-cpp.md
    archives/fast-uprobes.md
    archives/erofs-past-present-and-future.md
