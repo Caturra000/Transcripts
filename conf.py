@@ -19,6 +19,7 @@ author = 'Caturra'
 extensions = [
     "revitron_sphinx_theme",
     "myst_parser",
+    "sphinxcontrib.jquery",
 ]
 
 autodoc_default_options = {
@@ -54,3 +55,6 @@ else:
     html_link_suffix = '/'
 
 html_title = 'Caturra的中文转录小站'
+
+# 个人习惯起手 H2 标签
+suppress_warnings = ["myst.header"]

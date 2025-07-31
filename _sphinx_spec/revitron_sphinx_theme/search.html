@@ -15,9 +15,8 @@
     <script type="text/javascript" src="{{ pathto('_static/searchtools.js', 1) }}"></script>
 {%- endblock %}
 {% block footer %}
-  <script type="text/javascript">
-    jQuery(function() { Search.loadIndex("{{ pathto('searchindex.js', 1) }}"); });
-  </script>
+
+  {# bluepuni: no searchtool #}
   {# this is used when loading the search index using $.ajax fails,
      such as on Chrome for documents on localhost #}
   <script type="text/javascript" id="searchindexloader"></script>
@@ -52,4 +51,6 @@
     </ul>
   {% endif %}
   </div>
+  <p>没装搜索插件，不会返回结果的。</p>
+  <p>可以直接去我 <a href="https://github.com/Caturra000/Transcripts/tree/master/archives">仓库</a> 里面搜索。</p>
 {% endblock %}
