@@ -9,6 +9,9 @@
    :glob:
    :caption: ARCHIVES
 
+   archives/oop-is-dead-long-live-data-oriented-design.md
+   archives/faster-and-fewer-page-faults.md
+   archives/type-punning-done-right.md
    archives/cpp-switch-statements-under-the-hood-in-llvm.md
    archives/large-block-io-for-linux.md
    archives/different-io-access-methods-for-linux-what-we-chose-for-scylladb-and-why.md
