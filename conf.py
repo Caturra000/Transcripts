@@ -42,7 +42,8 @@ source_suffix = {
 }
 
 html_theme_options = {
-    'navigation_depth': 5
+    'navigation_depth': 5,
+    'github_url' : 'https://github.com/Caturra000/Transcripts'
 }
 
 # 生产模式开启 Jekyll 风味
