@@ -9,7 +9,7 @@
    :glob:
    :caption: ARCHIVES
 
-   archives/porting-u-boot-and-linux-on-new-arm-boards-a-step-by-step-guide.md
+   archives/cpp-switch-statements-under-the-hood-in-llvm.md
    archives/large-block-io-for-linux.md
    archives/different-io-access-methods-for-linux-what-we-chose-for-scylladb-and-why.md
    archives/llvm-optimization-remarks.md
