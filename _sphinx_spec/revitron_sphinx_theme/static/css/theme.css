@@ -86,18 +86,18 @@ sub{
     bottom:-.25em
 }
 /* bluepuni begin: workaround for markdown. */
-dl,ol,ul{
+.wy-menu dl,
+.wy-menu ol,
+.wy-menu ul,
+.wy-menu li {
     padding:0 !important;
 }
-li{
-    padding:0 !important;
-}
-dl>p,
-ol>p,
-ul>p,
-li>p {
+.rst-content dl>p,
+.rst-content ol>p,
+.rst-content ul>p,
+.rst-content li>p {
     margin-bottom:0 !important;
-    padding:0 !important;
+    padding-left:0 !important;
 }
 /* bluepuni end */
 dd{
@@ -3501,7 +3501,8 @@ hr{
 }
 .wy-breadcrumbs{
     *zoom:1;
-    padding:.5rem 0
+    /* bluepuni:fix */
+    padding:0
 }
 .wy-breadcrumbs:after,.wy-breadcrumbs:before{
     display:table;
@@ -3583,6 +3584,7 @@ html{
 }
 body{
     background-color:var(--bg);
+    /* bluepuni: YaHei has its problem, so we will make notosans first. */
     font-weight:calc(450*var(--font-weight-factor))
 }
 .wy-affix{
@@ -4217,8 +4219,9 @@ footer p{
     margin-bottom:1.5rem
 }
 .rst-content .section ol>li,.rst-content .section ul>li,.rst-content .wy-plain-list-decimal>li,.rst-content ol.arabic>li{
-    margin-left:2rem;
-    padding-left:.3rem
+    /* bluepuni: fix */
+    margin-left:0 !important;
+    padding-left:0 !important;
 }
 .rst-content .section ol.simple li>*,.rst-content .section ol.simple li ol,.rst-content .section ol.simple li ul,.rst-content .section ul.simple li>*,.rst-content .section ul.simple li ol,.rst-content .section ul.simple li ul{
     margin-top:0;
@@ -5060,7 +5063,8 @@ pre{
     --warning-text:#504f1b;
     --warning-bg:#f9f776;
     --bg-highlight:#fff9a3;
-    --font-weight-factor:1.12
+    /* bluepuni: YaHei is really bad if we set 1.12 by default. */
+    --font-weight-factor:1
 }
 :root *{
     -webkit-font-smoothing:antialiased!important;
