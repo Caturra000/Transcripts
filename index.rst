@@ -9,6 +9,11 @@
    :glob:
    :caption: ARCHIVES
 
+   archives/accelerating-page-migrations.md
+   archives/asynchronous-io-stack.md
+   archives/f2fs-features-in-android.md
+   archives/yandex-performance-troubleshooting-in-practice.md
+   archives/yandex-configuring-kernel-parameters.md
    archives/oop-is-dead-long-live-data-oriented-design.md
    archives/faster-and-fewer-page-faults.md
    archives/type-punning-done-right.md
