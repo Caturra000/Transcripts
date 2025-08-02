@@ -20,12 +20,14 @@ extensions = [
     "revitron_sphinx_theme",
     "myst_parser",
     "sphinxcontrib.jquery",
+    "private_sphinx_sitemap",
 ]
 
 autodoc_default_options = {
     'autosummary': False 
 }
 
+html_baseurl = "https://uni.bluepuni.com"
 html_theme = 'revitron_sphinx_theme'
 
 templates_path = ['_templates']
@@ -59,3 +61,13 @@ html_title = 'Caturra的中文转录小站'
 
 # 个人习惯起手 H2 标签
 suppress_warnings = ["myst.header"]
+
+# 用于 sitemap 插件
+sitemap_url_scheme = "/{link}"
+sitemap_excludes = [
+    "search/",
+    "genindex/",
+]
+
+# TODO: 可能需要 robots.txt，但是硬编码 URL 并不妥
+# 考虑在私有的 Sphinx 插件中插入一个生成文件的实现，复用 baseurl 配置
