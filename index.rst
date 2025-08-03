@@ -9,6 +9,10 @@
    :glob:
    :caption: ARCHIVES
 
+   archives/to-int-or-to-uint-this-is-the-question.md
+   archives/a-relaxed-guide-to-memory-order-relaxed.md
+   archives/throwing-tools-at-ranges.md
+   archives/optimization-remarks.md
    archives/accelerating-page-migrations.md
    archives/asynchronous-io-stack.md
    archives/f2fs-features-in-android.md
