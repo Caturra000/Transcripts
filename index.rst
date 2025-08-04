@@ -9,6 +9,9 @@
    :glob:
    :caption: ARCHIVES
 
+   archives/the-static-initialization-order-fiasco.md
+   archives/an-in-complete-guide-to-cpp-object-lifetimes.md
+   archives/how-to-keep-cpp-binaries-small.md
    archives/documentation-in-the-era-of-concepts-and-ranges.md
    archives/exceptionally-bad-the-story-on-the-misuse-of-exceptions-and-how-to-do-better.md
    archives/basic-usage-of-pmrs-for-better-performance.md
