@@ -9,6 +9,7 @@
    :glob:
    :caption: ARCHIVES
 
+   archives/forward-progress-guarantees-in-cpp.md
    archives/revamping-ioctl-with-io-uring.md
    archives/endurance-group-management.md
    archives/the-static-initialization-order-fiasco.md
