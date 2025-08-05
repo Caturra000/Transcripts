@@ -9,6 +9,8 @@
    :glob:
    :caption: ARCHIVES
 
+   archives/revamping-ioctl-with-io-uring.md
+   archives/endurance-group-management.md
    archives/the-static-initialization-order-fiasco.md
    archives/an-in-complete-guide-to-cpp-object-lifetimes.md
    archives/how-to-keep-cpp-binaries-small.md
