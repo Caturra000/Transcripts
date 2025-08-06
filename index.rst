@@ -9,6 +9,9 @@
    :glob:
    :caption: ARCHIVES
 
+   archives/all-your-memory-are-belong-to-whom.md
+   archives/maple-tree-structure-and-algorithms.md
+   archives/api-abi-versioning.md
    archives/a-tour-of-cpp-recognised-user-type-categories.md
    archives/forward-progress-guarantees-in-cpp.md
    archives/revamping-ioctl-with-io-uring.md
