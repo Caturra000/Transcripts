@@ -9,6 +9,7 @@
    :glob:
    :caption: ARCHIVES
 
+   archives/thread-local-in-cpp-as-it-is.md
    archives/all-your-memory-are-belong-to-whom.md
    archives/maple-tree-structure-and-algorithms.md
    archives/api-abi-versioning.md
