@@ -19,7 +19,15 @@ help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 # make server 为调试模式，影响 conf.py 对文件后缀的处理
+# 需要 sphinx-autobuild 依赖
 server:
+	@make clean
+	@export CATURRA_SPHINX_DEBUG=1 \
+		&& sphinx-autobuild . _build/html --host 127.0.0.1 --port 4000
+
+# 与 make server 类似，但是不需要 sphinx-autobuild 依赖
+# 缺陷是不支持实时更新
+native_server:
 	@make clean
 	@export CATURRA_SPHINX_DEBUG=1 && make html
 	python3 -m http.server 4000 -d _build/html/
