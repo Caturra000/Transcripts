@@ -9,6 +9,7 @@
    :glob:
    :caption: ARCHIVES
 
+   archives/sheer-folly.md
    archives/the-strange-details-of-std-string-at-facebook.md
    archives/a-journey-into-the-world-of-persistent-memory.md
    archives/nonblocking-data-structures.md
