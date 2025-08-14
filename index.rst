@@ -9,6 +9,7 @@
    :glob:
    :caption: ARCHIVES
 
+   archives/beyond-sequential-consistency-leveraging-atomics-for-fun-and-profit.md
    archives/binary-instrumentation-for-architectural-studies-pin.md
    archives/why-is-ps3-emulation-so-fast-rpcs3-optimizations-explained.md
    archives/sheer-folly.md
