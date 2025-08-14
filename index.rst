@@ -9,6 +9,8 @@
    :glob:
    :caption: ARCHIVES
 
+   archives/binary-instrumentation-for-architectural-studies-pin.md
+   archives/why-is-ps3-emulation-so-fast-rpcs3-optimizations-explained.md
    archives/sheer-folly.md
    archives/the-strange-details-of-std-string-at-facebook.md
    archives/a-journey-into-the-world-of-persistent-memory.md
