@@ -9,6 +9,8 @@
    :glob:
    :caption: ARCHIVES
 
+   archives/how-we-program-multicores.md
+   archives/on-simd-cache-and-cpu-internals-with-the-expert-daniel-lemire.md
    archives/simd-enhanced-libc-string-functions-how-it-s-done.md
    archives/beyond-sequential-consistency-leveraging-atomics-for-fun-and-profit.md
    archives/binary-instrumentation-for-architectural-studies-pin.md
