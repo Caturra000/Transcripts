@@ -1,4 +1,4 @@
-# 与专家 Daniel Lemire 探讨 SIMD、缓存和 CPU 内部机制
+# 与专家 Daniel Lemire 探讨 SIMD、缓存和 CPU 内部
 
 标题：On SIMD, cache and CPU internals with the expert Daniel Lemire!
 
