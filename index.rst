@@ -9,6 +9,11 @@
    :glob:
    :caption: ARCHIVES
 
+   archives/the-battle-of-the-schedulers-freebsd-ule-vs-linux-cfs.md
+   archives/fifo-queues-are-all-you-need-for-cache-eviction.md
+   archives/the-cachelib-caching-engine.md
+   archives/bwos-block-based-work-stealing.md
+   archives/transport-level-testing-of-nvme-devices-using-vfio.md
    archives/how-we-program-multicores.md
    archives/on-simd-cache-and-cpu-internals-with-the-expert-daniel-lemire.md
    archives/simd-enhanced-libc-string-functions-how-it-s-done.md
