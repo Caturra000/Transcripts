@@ -1,4 +1,4 @@
-# Linux调度器：浪费的十年核
+# Linux调度器：十年的核心浪费
 
 标题：The Linux Scheduler: a Decade of Wasted Cores
 
