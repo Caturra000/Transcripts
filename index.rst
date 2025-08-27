@@ -9,6 +9,7 @@
    :glob:
    :caption: ARCHIVES
 
+   archives/annotating-elf-files-with-compile-time-information.md
    archives/current-status-and-future-of-linux-schedulers-in-multi-core-scenarios.md
    archives/the-linux-scheduler-a-decade-of-wasted-cores.md
    archives/the-battle-of-the-schedulers-freebsd-ule-vs-linux-cfs.md
