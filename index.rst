@@ -9,6 +9,8 @@
    :glob:
    :caption: ARCHIVES
 
+   archives/the-structure-and-performance-of-efficient-interpreters.md
+   archives/algorithm-for-massively-parallel-work-with-sockets-in-cpp.md
    archives/annotating-elf-files-with-compile-time-information.md
    archives/current-status-and-future-of-linux-schedulers-in-multi-core-scenarios.md
    archives/the-linux-scheduler-a-decade-of-wasted-cores.md
