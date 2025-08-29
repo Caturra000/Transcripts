@@ -9,6 +9,8 @@
    :glob:
    :caption: ARCHIVES
 
+   archives/template-shenanigans-testing-debugging-and-benchmarking-template-code.md
+   archives/fewer-cores-more-hertz.md
    archives/the-structure-and-performance-of-efficient-interpreters.md
    archives/algorithm-for-massively-parallel-work-with-sockets-in-cpp.md
    archives/annotating-elf-files-with-compile-time-information.md
