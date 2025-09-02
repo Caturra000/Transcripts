@@ -9,6 +9,7 @@
    :glob:
    :caption: ARCHIVES
 
+   archives/arm-weakly-ordered-memory-model-and-barrier-requirements.md
    archives/template-shenanigans-testing-debugging-and-benchmarking-template-code.md
    archives/fewer-cores-more-hertz.md
    archives/the-structure-and-performance-of-efficient-interpreters.md
