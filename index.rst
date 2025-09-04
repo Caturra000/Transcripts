@@ -9,6 +9,7 @@
    :glob:
    :caption: ARCHIVES
 
+   archives/data-center-computers-modern-challenges-in-cpu-design.md
    archives/mental-models-for-modern-program-tuning.md
    archives/practical-data-oriented-design.md
    archives/arm-weakly-ordered-memory-model-and-barrier-requirements.md
