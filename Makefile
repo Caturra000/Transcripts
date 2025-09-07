@@ -23,7 +23,7 @@ help:
 server:
 	@make clean
 	@export CATURRA_SPHINX_DEBUG=1 \
-		&& sphinx-autobuild . _build/html --host 127.0.0.1 --port 4000
+		&& sphinx-autobuild . _build/html --host 127.0.0.1 --port 4000 -j auto
 
 # 与 make server 类似，但是不需要 sphinx-autobuild 依赖
 # 缺陷是不支持实时更新
