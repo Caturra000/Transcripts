@@ -10,7 +10,6 @@
    :caption: ARCHIVES
 
    archives/using-weakly-ordered-c-plus-plus-atomics-correctly.md
-   archives/a-tutorial-introduction-to-the-arm-and-power-relaxed-memory-models.md
    archives/understanding-power-multiprocessors.md
    archives/data-center-computers-modern-challenges-in-cpu-design.md
    archives/mental-models-for-modern-program-tuning.md
