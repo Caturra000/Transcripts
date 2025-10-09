@@ -9,6 +9,7 @@
    :glob:
    :caption: ARCHIVES
 
+   archives/why-29-percent-of-x86-is-my-fault.md
    archives/using-weakly-ordered-c-plus-plus-atomics-correctly.md
    archives/understanding-power-multiprocessors.md
    archives/data-center-computers-modern-challenges-in-cpu-design.md
