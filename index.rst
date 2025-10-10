@@ -9,6 +9,7 @@
    :glob:
    :caption: ARCHIVES
 
+   archives/making-a-program-faster-multithreading-and-automatic-compiler-vectorization.md
    archives/why-29-percent-of-x86-is-my-fault.md
    archives/using-weakly-ordered-c-plus-plus-atomics-correctly.md
    archives/understanding-power-multiprocessors.md
