@@ -9,6 +9,7 @@
    :glob:
    :caption: ARCHIVES
 
+   archives/how-to-choose-the-right-container-in-cpp26-and-beyond.md
    archives/overengineering-max-a-b.md
    archives/making-a-program-faster-multithreading-and-automatic-compiler-vectorization.md
    archives/why-29-percent-of-x86-is-my-fault.md
