@@ -9,6 +9,7 @@
    :glob:
    :caption: ARCHIVES
 
+   archives/cpp-as-a-microscope-into-hardware.md
    archives/how-to-choose-the-right-container-in-cpp26-and-beyond.md
    archives/overengineering-max-a-b.md
    archives/making-a-program-faster-multithreading-and-automatic-compiler-vectorization.md
