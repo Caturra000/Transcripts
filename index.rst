@@ -9,6 +9,7 @@
    :glob:
    :caption: ARCHIVES
 
+   archives/mdspan-a-deep-dive-spanning-cpp-kokkos-and-sycl.md
    archives/the-art-of-text-rendering.md
    archives/taming-the-filter-view-in-cpp-programming.md
    archives/how-to-choose-the-right-container-in-cpp26-and-beyond.md
