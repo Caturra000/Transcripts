@@ -9,6 +9,8 @@
    :glob:
    :caption: ARCHIVES
 
+   archives/zero-cost-abstractions-in-cpp-high-performance-message-dispatch.md
+   archives/can-std-expected-with-monadic-operations-really-boost-your-cpp-code-performance.md
    archives/clean-code-horrible-performance.md
    archives/mdspan-a-deep-dive-spanning-cpp-kokkos-and-sycl.md
    archives/the-art-of-text-rendering.md
