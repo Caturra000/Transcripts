@@ -6,7 +6,7 @@
 
 作者：Anthony Rebello, Yuvraj Patel, Ramnathan Alagappan, Andrea C. Arpaci-Dusseau, and Remzi H. Arpaci-Dusseau
 
-链接：[https://www.usenix.org/system/files/atc20-rebello.pdf](https://www.usenix.org/system/files/atc20-rebello.pdf)
+链接：<https://www.usenix.org/system/files/atc20-rebello.pdf>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

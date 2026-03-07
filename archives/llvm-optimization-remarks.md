@@ -6,7 +6,7 @@
 
 作者：Ofek Shilon
 
-链接：[https://www.youtube.com/watch?v=qmEsx4MbKoc](https://www.youtube.com/watch?v=qmEsx4MbKoc)
+链接：<https://www.youtube.com/watch?v=qmEsx4MbKoc>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

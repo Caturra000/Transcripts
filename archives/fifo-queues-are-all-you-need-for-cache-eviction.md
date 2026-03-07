@@ -6,7 +6,7 @@
 
 作者：Juncheng Yang, Yazhuo Zhang, Ziyue Qiu, Yao Yue, K. V. Rashmi
 
-链接：[https://dlnext.acm.org/doi/abs/10.1145/3600006.3613147](https://dlnext.acm.org/doi/abs/10.1145/3600006.3613147)
+链接：<https://dlnext.acm.org/doi/abs/10.1145/3600006.3613147>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

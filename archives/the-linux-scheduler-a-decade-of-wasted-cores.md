@@ -6,7 +6,7 @@
 
 作者：Jean-Pierre Lozi, Baptiste Lepers, Justin Funston, Fabien Gaud, Vivien Quéma, Alexandra Fedorova
 
-链接：[https://people.ece.ubc.ca/sasha/papers/eurosys16-final29.pdf](https://people.ece.ubc.ca/sasha/papers/eurosys16-final29.pdf)
+链接：<https://people.ece.ubc.ca/sasha/papers/eurosys16-final29.pdf>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

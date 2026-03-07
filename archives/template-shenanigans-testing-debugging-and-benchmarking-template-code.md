@@ -6,7 +6,7 @@
 
 作者：Jonathan O'Connor
 
-链接：[https://www.youtube.com/watch?v=TQQf4z-laBA](https://www.youtube.com/watch?v=TQQf4z-laBA)
+链接：<https://www.youtube.com/watch?v=TQQf4z-laBA>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

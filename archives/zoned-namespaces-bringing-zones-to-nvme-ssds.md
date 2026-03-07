@@ -6,7 +6,7 @@
 
 作者：Aravind Ramesh
 
-链接：[https://www.youtube.com/watch?v=yHpDh9M0Tuw](https://www.youtube.com/watch?v=yHpDh9M0Tuw)
+链接：<https://www.youtube.com/watch?v=yHpDh9M0Tuw>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

@@ -6,7 +6,7 @@
 
 作者：Tom Forsyth
 
-链接：[https://vimeo.com/450406346](https://vimeo.com/450406346)
+链接：<https://vimeo.com/450406346>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

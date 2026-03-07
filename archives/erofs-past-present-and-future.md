@@ -6,7 +6,7 @@
 
 作者：Xiang Gao & Tianyi Tang
 
-链接：[https://www.youtube.com/watch?v=CmXyPz4UcDE](https://www.youtube.com/watch?v=CmXyPz4UcDE)
+链接：<https://www.youtube.com/watch?v=CmXyPz4UcDE>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

@@ -6,7 +6,7 @@
 
 作者：Robert Clausecker
 
-链接：[https://www.youtube.com/watch?v=kbSFSxHUmN4](https://www.youtube.com/watch?v=kbSFSxHUmN4)
+链接：<https://www.youtube.com/watch?v=kbSFSxHUmN4>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

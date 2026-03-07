@@ -6,7 +6,7 @@
 
 作者：Justinien Bouron, Sebastien Chevalley, Baptiste Lepers, and Willy Zwaenepoel, EPFL; Redha Gouicem, Julia Lawall, Gilles Muller, and Julien Sopena, Sorbonne University/Inria/LIP6
 
-链接：[https://www.usenix.org/conference/atc18/presentation/bouron](https://www.usenix.org/conference/atc18/presentation/bouron)
+链接：<https://www.usenix.org/conference/atc18/presentation/bouron>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

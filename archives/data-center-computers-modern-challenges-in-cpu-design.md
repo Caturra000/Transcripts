@@ -6,7 +6,7 @@
 
 作者：Dick Sites
 
-链接：[https://www.youtube.com/watch?v=QBu2Ae8-8LM](https://www.youtube.com/watch?v=QBu2Ae8-8LM)
+链接：<https://www.youtube.com/watch?v=QBu2Ae8-8LM>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

@@ -6,7 +6,7 @@
 
 作者：Alan Talbot
 
-链接：[https://www.youtube.com/watch?v=TtbYGico7bI](https://www.youtube.com/watch?v=TtbYGico7bI)
+链接：<https://www.youtube.com/watch?v=TtbYGico7bI>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

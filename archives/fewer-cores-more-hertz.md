@@ -6,7 +6,7 @@
 
 作者：Redha Gouicem and Damien Carver, Sorbonne University, LIP6, Inria; Jean-Pierre Lozi, Oracle Labs; Julien Sopena, Sorbonne University, LIP6, Inria; Baptiste Lepers and Willy Zwaenepoel, University of Sydney; Nicolas Palix, Université Grenoble Alpes; Julia Lawall and Gilles Muller, Inria, Sorbonne University, LIP6
 
-链接：[https://www.usenix.org/conference/atc20/presentation/gouicern](https://www.usenix.org/conference/atc20/presentation/gouicern)
+链接：<https://www.usenix.org/conference/atc20/presentation/gouicern>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

@@ -6,7 +6,7 @@
 
 作者：Khalil Estell
 
-链接：[https://www.youtube.com/watch?v=bY2FlayomlE](https://www.youtube.com/watch?v=bY2FlayomlE)
+链接：<https://www.youtube.com/watch?v=bY2FlayomlE>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

@@ -6,7 +6,7 @@
 
 作者：Benjamin Berg, Carnegie Mellon University; Daniel S. Berger, Carnegie Mellon University and Microsoft Research; Sara McAllister and Isaac Grosof, Carnegie Mellon University; Sathya Gunasekar, Jimmy Lu, Michael Uhlar, and Jim Carrig, Facebook; Nathan Beckmann, Mor Harchol-Balter, and Gregory R. Ganger, Carnegie Mellon University
 
-链接：[https://www.usenix.org/system/files/osdi20-berg.pdf](https://www.usenix.org/system/files/osdi20-berg.pdf)
+链接：<https://www.usenix.org/system/files/osdi20-berg.pdf>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

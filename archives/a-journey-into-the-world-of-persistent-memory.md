@@ -6,7 +6,7 @@
 
 作者：Gael Thomas
 
-链接：[https://www.youtube.com/watch?v=7O_IY6P72XE](https://www.youtube.com/watch?v=7O_IY6P72XE)
+链接：<https://www.youtube.com/watch?v=7O_IY6P72XE>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

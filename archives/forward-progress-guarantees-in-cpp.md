@@ -6,7 +6,7 @@
 
 作者：Olivier Giroux
 
-链接：[https://www.youtube.com/watch?v=g9Rgu6YEuqY](https://www.youtube.com/watch?v=g9Rgu6YEuqY)
+链接：<https://www.youtube.com/watch?v=g9Rgu6YEuqY>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

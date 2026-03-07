@@ -6,7 +6,7 @@
 
 作者：Andreas Fertig
 
-链接：[https://www.youtube.com/watch?v=rNl591__9zY](https://www.youtube.com/watch?v=rNl591__9zY)
+链接：<https://www.youtube.com/watch?v=rNl591__9zY>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

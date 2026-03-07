@@ -6,7 +6,7 @@
 
 作者：Paul McKenney
 
-链接：[https://kernel-recipes.org/en/2024/schedule/case-study-concurrent-counting/](https://kernel-recipes.org/en/2024/schedule/case-study-concurrent-counting/)
+链接：<https://kernel-recipes.org/en/2024/schedule/case-study-concurrent-counting/>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

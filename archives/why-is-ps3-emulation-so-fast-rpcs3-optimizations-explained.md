@@ -6,7 +6,7 @@
 
 作者：Whatcookie
 
-链接：[https://www.youtube.com/watch?v=19ae5Mq2lJE](https://www.youtube.com/watch?v=19ae5Mq2lJE)
+链接：<https://www.youtube.com/watch?v=19ae5Mq2lJE>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

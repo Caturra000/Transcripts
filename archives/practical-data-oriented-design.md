@@ -6,7 +6,7 @@
 
 作者：Andrew Kelley
 
-链接：[https://www.youtube.com/watch?v=IroPQ150F6c](https://www.youtube.com/watch?v=IroPQ150F6c)
+链接：<https://www.youtube.com/watch?v=IroPQ150F6c>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

@@ -6,7 +6,7 @@
 
 作者：Susmit Sarkar, Peter Sewell, Jade Alglave, Luc Maranget, Derek Williams
 
-链接：[https://www.cl.cam.ac.uk/~pes20/ppc-supplemental/](https://www.cl.cam.ac.uk/~pes20/ppc-supplemental/)
+链接：<https://www.cl.cam.ac.uk/~pes20/ppc-supplemental/>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

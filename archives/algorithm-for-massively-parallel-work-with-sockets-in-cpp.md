@@ -6,7 +6,7 @@
 
 作者：Владислав Шпилевой
 
-链接：[https://www.youtube.com/watch?v=DK0bPIsyJY8](https://www.youtube.com/watch?v=DK0bPIsyJY8)
+链接：<https://www.youtube.com/watch?v=DK0bPIsyJY8>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

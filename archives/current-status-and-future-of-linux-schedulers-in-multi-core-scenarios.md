@@ -6,7 +6,7 @@
 
 作者：陈渝
 
-链接：[https://developer.aliyun.com/live/255213](https://developer.aliyun.com/live/255213)
+链接：<https://developer.aliyun.com/live/255213>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

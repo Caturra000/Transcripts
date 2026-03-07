@@ -6,7 +6,7 @@
 
 作者：Steven Rostedt
 
-链接：[https://www.youtube.com/watch?v=Tkra8g0gXAU](https://www.youtube.com/watch?v=Tkra8g0gXAU)
+链接：<https://www.youtube.com/watch?v=Tkra8g0gXAU>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

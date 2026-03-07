@@ -6,7 +6,7 @@
 
 作者：Nicolas Rougier
 
-链接：[https://media.ccc.de/v/39c3-the-art-of-text-rendering](https://media.ccc.de/v/39c3-the-art-of-text-rendering)
+链接：<https://media.ccc.de/v/39c3-the-art-of-text-rendering>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

@@ -6,7 +6,7 @@
 
 作者：Casey Muratori
 
-链接：[https://www.youtube.com/watch?v=y8N5aP4EGBI](https://www.youtube.com/watch?v=y8N5aP4EGBI)
+链接：<https://www.youtube.com/watch?v=y8N5aP4EGBI>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

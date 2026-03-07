@@ -6,7 +6,7 @@
 
 作者：Javier Lopez Gomez
 
-链接：[https://www.youtube.com/watch?v=NRV_bgN92DI](https://www.youtube.com/watch?v=NRV_bgN92DI)
+链接：<https://www.youtube.com/watch?v=NRV_bgN92DI>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

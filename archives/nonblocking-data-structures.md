@@ -6,7 +6,7 @@
 
 作者：Michael Scott
 
-链接：[https://www.youtube.com/watch?v=9XAx279s7gs](https://www.youtube.com/watch?v=9XAx279s7gs)
+链接：<https://www.youtube.com/watch?v=9XAx279s7gs>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

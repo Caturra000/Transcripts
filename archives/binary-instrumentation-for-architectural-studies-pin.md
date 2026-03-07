@@ -6,7 +6,7 @@
 
 作者：Mainak Chaudhuri
 
-链接：[https://www.youtube.com/watch?v=Bat6pB3UTwY](https://www.youtube.com/watch?v=Bat6pB3UTwY)
+链接：<https://www.youtube.com/watch?v=Bat6pB3UTwY>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

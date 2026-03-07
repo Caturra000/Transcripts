@@ -6,7 +6,7 @@
 
 作者：안정섭
 
-链接：[https://www.youtube.com/watch?v=9zh91mIZ1_E](https://www.youtube.com/watch?v=9zh91mIZ1_E)
+链接：<https://www.youtube.com/watch?v=9zh91mIZ1_E>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

@@ -6,7 +6,7 @@
 
 作者：Paul E. McKenney & Hans Boehm
 
-链接：[https://www.youtube.com/watch?v=cWkUqK71DZ0](https://www.youtube.com/watch?v=cWkUqK71DZ0)
+链接：<https://www.youtube.com/watch?v=cWkUqK71DZ0>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

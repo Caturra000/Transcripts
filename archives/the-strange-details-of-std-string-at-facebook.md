@@ -6,7 +6,7 @@
 
 作者：Nicholas Ormrod
 
-链接：[https://www.youtube.com/watch?v=kPR8h4-qZdk](https://www.youtube.com/watch?v=kPR8h4-qZdk)
+链接：<https://www.youtube.com/watch?v=kPR8h4-qZdk>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

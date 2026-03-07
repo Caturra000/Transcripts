@@ -6,7 +6,7 @@
 
 作者：Jonathan Müller
 
-链接：[https://www.youtube.com/watch?v=o2pNg7noCeQ](https://www.youtube.com/watch?v=o2pNg7noCeQ)
+链接：<https://www.youtube.com/watch?v=o2pNg7noCeQ>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

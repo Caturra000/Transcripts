@@ -6,7 +6,7 @@
 
 作者：Paul McKenney
 
-链接：[https://lpc.events/event/17/contributions/1504/](https://lpc.events/event/17/contributions/1504/)
+链接：<https://lpc.events/event/17/contributions/1504/>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

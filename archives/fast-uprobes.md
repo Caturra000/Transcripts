@@ -6,7 +6,7 @@
 
 作者：Jiri Olsa
 
-链接：[https://www.youtube.com/watch?v=WGH8Ycly9UU](https://www.youtube.com/watch?v=WGH8Ycly9UU)
+链接：<https://www.youtube.com/watch?v=WGH8Ycly9UU>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

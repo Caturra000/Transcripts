@@ -6,7 +6,7 @@
 
 作者：Rostislav Khlebnikov
 
-链接：[https://www.youtube.com/watch?v=5ttyA1-I8D8](https://www.youtube.com/watch?v=5ttyA1-I8D8)
+链接：<https://www.youtube.com/watch?v=5ttyA1-I8D8>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

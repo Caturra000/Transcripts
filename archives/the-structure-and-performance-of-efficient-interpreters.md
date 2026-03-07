@@ -6,7 +6,7 @@
 
 作者：M. Anton Ertl, David Gregg
 
-链接：[https://jilp.org/vol5/v5paper12.pdf](https://jilp.org/vol5/v5paper12.pdf)
+链接：<https://jilp.org/vol5/v5paper12.pdf>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

@@ -6,7 +6,7 @@
 
 作者：Александр Костриков
 
-链接：[https://www.youtube.com/watch?v=I_mVU41I-YE](https://www.youtube.com/watch?v=I_mVU41I-YE)
+链接：<https://www.youtube.com/watch?v=I_mVU41I-YE>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

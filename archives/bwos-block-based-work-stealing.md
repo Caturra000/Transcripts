@@ -6,7 +6,7 @@
 
 作者：Jiawei Wang, Huawei Dresden Research Center, Huawei Central Software Institute, Technische Universität Dresden; Bohdan Trach, Ming Fu, Diogo Behrens, Jonathan Schwender, Yutao Liu, and Jitang Lei, Huawei Dresden Research Center, Huawei Central Software Institute; Viktor Vafeiadis, MPI-SWS; Hermann Härtig, Technische Universität Dresden; Haibo Chen, Huawei Central Software Institute, Shanghai Jiao Tong University
 
-链接：[https://www.usenix.org/conference/osdi23/presentation/wang-jiawei](https://www.usenix.org/conference/osdi23/presentation/wang-jiawei)
+链接：<https://www.usenix.org/conference/osdi23/presentation/wang-jiawei>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 

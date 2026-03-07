@@ -6,7 +6,7 @@
 
 作者：Avi Kivity
 
-链接：[https://www.youtube.com/watch?v=27Xz21RJoUA](https://www.youtube.com/watch?v=27Xz21RJoUA)
+链接：<https://www.youtube.com/watch?v=27Xz21RJoUA>
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 
