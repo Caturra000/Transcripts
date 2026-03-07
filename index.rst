@@ -9,6 +9,7 @@
    :glob:
    :caption: ARCHIVES
 
+   archives/interesting-upcoming-low-latency-concurrency-and-parallelism-features.md
    archives/can-std-expected-with-monadic-operations-really-boost-your-cpp-code-performance.md
    archives/clean-code-horrible-performance.md
    archives/mdspan-a-deep-dive-spanning-cpp-kokkos-and-sycl.md
