@@ -10,7 +10,9 @@
 
 注意：此为 **AI 翻译生成** 的中文转录稿，详细说明请参阅仓库中的 [README](/README.md) 文件。
 
-备注：并发队列和 zap（啥玩意）我不敢评论，但是 [std::simd](https://www.bluepuni.com/archives/cpp-std-simd/) 我敢说它只是玩具罢了。
+备注一：并发队列和 zap（啥玩意）我不敢评论<del>，但是 [std::simd](https://www.bluepuni.com/archives/cpp-std-simd/) 我敢说它只是玩具罢了</del>。
+
+备注二：看了眼标准，终于提供基本的 [shuffle](https://eel.is/c++draft/simd#permute.static) 操作了，不算过于玩具。
 
 -------
 
