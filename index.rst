@@ -10,7 +10,6 @@
    :caption: ARCHIVES
 
    archives/wait-is-it-posix-investigating-different-os-and-library-implementations-for-networking.md
-   archives/matrix-multiplication-deep-dive-cache-blocking-simd-and-parallelization.md
    archives/interesting-upcoming-low-latency-concurrency-and-parallelism-features.md
    archives/can-std-expected-with-monadic-operations-really-boost-your-cpp-code-performance.md
    archives/clean-code-horrible-performance.md
