@@ -9,6 +9,8 @@
    :glob:
    :caption: ARCHIVES
 
+   archives/are-mutexes-slow.md
+   archives/xue-wen-mao.md
    archives/wait-is-it-posix-investigating-different-os-and-library-implementations-for-networking.md
    archives/interesting-upcoming-low-latency-concurrency-and-parallelism-features.md
    archives/can-std-expected-with-monadic-operations-really-boost-your-cpp-code-performance.md
