@@ -7,6 +7,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 import os
 import sys
+import re
+import docutils.nodes
 sys.path.insert(0, os.path.abspath('_sphinx_spec'))
 
 project = 'Caturra的中文转录小站'
@@ -68,6 +70,13 @@ sitemap_excludes = [
     "search/",
     "genindex/",
 ]
+
+# 提供人类可读的内部链接
+# 尽可能接近 Jekyll 风味
+docutils.nodes.make_id = lambda s: re.sub(
+    r'[\s-]+', '-',
+    re.sub(r'[^\w\s-]', '', s.strip().lower())
+).strip('-') or 'id'
 
 # TODO: 可能需要 robots.txt，但是硬编码 URL 并不妥
 # 考虑在私有的 Sphinx 插件中插入一个生成文件的实现，复用 baseurl 配置
