@@ -3676,6 +3676,11 @@ html, body{
         display:block
     }
 }
+.wy-side-scroll ul li a{
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis
+}
 .wy-nav-top{
     display:none;
     background:var(--bg-nav);
