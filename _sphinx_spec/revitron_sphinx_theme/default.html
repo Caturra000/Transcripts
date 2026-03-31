@@ -193,21 +193,176 @@
 	</script>
 	<script>
 		// Make it focus on `current`.
+		function getRelativeTop(element, container) {
+			let top = 0;
+			while (element && element !== container) {
+				top += element.offsetTop;
+				element = element.offsetParent;
+			}
+			return top;
+		}
+
+		function clearSidebarState(sidebar) {
+			sidebar.querySelectorAll("a.current").forEach(link => {
+				link.classList.remove("current");
+			});
+		}
+
+		function findTargetByHash(sidebar, rawHash = window.location.hash) {
+			const decodedHash = rawHash ? decodeURIComponent(rawHash) : "";
+			if (!decodedHash) return null;
+
+			const links = sidebar.querySelectorAll("a[href]");
+			for (const link of links) {
+				const href = link.getAttribute("href");
+				if (href === decodedHash || href.endsWith(decodedHash)) {
+					return link;
+				}
+			}
+			return null;
+		}
+
+		function ensureLiChainCurrent(element, sidebar) {
+			let li = element.closest("li");
+			while (li && sidebar.contains(li)) {
+				li.classList.add("current");
+				const parent = li.parentElement;
+				li = parent ? parent.closest("li") : null;
+			}
+		}
+
+		function getMainLink(sidebar) {
+			const mainLi = sidebar.querySelector("li.toctree-l1.current");
+			return mainLi ? mainLi.querySelector(":scope > a") : null;
+		}
+
+		function applySidebarTarget(sidebar, target) {
+			clearSidebarState(sidebar);
+
+			if (target) {
+				target.classList.add("current");
+				ensureLiChainCurrent(target, sidebar);
+				return target;
+			}
+
+			const mainLink = getMainLink(sidebar);
+			if (mainLink) {
+				mainLink.classList.add("current");
+				return mainLink;
+			}
+
+			return null;
+		}
+
+		function setSidebarActiveByHash(sidebar) {
+			const target = findTargetByHash(sidebar, window.location.hash);
+			return applySidebarTarget(sidebar, target);
+		}
+
+		function scrollSidebarToTarget(target) {
+			const sidebar = document.querySelector(".wy-side-scroll");
+			if (!sidebar || !target) return;
+
+			const top = getRelativeTop(target, sidebar);
+			const scrollTop = Math.max(0, top - sidebar.clientHeight / 2 + target.offsetHeight / 2);
+
+			sidebar.scrollTo({
+				top: scrollTop,
+				behavior: "auto"
+			});
+		}
+
+		function getSamePageHash(link) {
+			const href = link.getAttribute("href");
+			if (!href) return null;
+			if (href === "#") return "#";
+
+			const url = new URL(href, window.location.href);
+			if (url.origin !== window.location.origin) return null;
+			if (url.pathname !== window.location.pathname) return null;
+
+			return url.hash || null;
+		}
+
+		function findContentTarget(rawHash) {
+			const decodedHash = rawHash ? decodeURIComponent(rawHash) : "";
+			if (!decodedHash || decodedHash === "#") return null;
+
+			const id = decodedHash.slice(1);
+			return document.getElementById(id);
+		}
+
+		function jumpContentToHash(rawHash) {
+			const target = findContentTarget(rawHash);
+			if (!target) return;
+
+			target.scrollIntoView({
+				block: "start",
+				inline: "nearest",
+				behavior: "auto"
+			});
+		}
+
+		window.addEventListener("load", function () {
+			setTimeout(function () {
+				const sidebar = document.querySelector(".wy-side-scroll");
+				if (!sidebar) return;
+
+				const target = setSidebarActiveByHash(sidebar);
+
+				if (target) {
+					scrollSidebarToTarget(target);
+				}
+			}, 50);
+		});
+
+		function syncSidebarFromHash() {
+			const sidebar = document.querySelector(".wy-side-scroll");
+			if (!sidebar) return;
+
+			const target = setSidebarActiveByHash(sidebar);
+			if (target) {
+				setTimeout(function () {
+					ensureLiChainCurrent(target, sidebar);
+				}, 50);
+			}
+		}
+
+		window.addEventListener("hashchange", syncSidebarFromHash);
+		window.addEventListener("popstate", syncSidebarFromHash);
+
 		document.addEventListener("DOMContentLoaded", function () {
 			const sidebar = document.querySelector(".wy-side-scroll");
-			const current = sidebar && (
-				sidebar.querySelector("li.current > a") ||
-				sidebar.querySelector("li.current") ||
-				sidebar.querySelector("a.current")
-			);
+			if (!sidebar) return;
 
-			if (sidebar && current) {
-				const sidebarRect = sidebar.getBoundingClientRect();
-				const currentRect = current.getBoundingClientRect();
+			sidebar.addEventListener("click", function (e) {
+				if (e.target.closest(".toctree-expand")) return;
 
-				const offset = currentRect.top - sidebarRect.top + sidebar.scrollTop;
-				sidebar.scrollTop = Math.max(0, offset - sidebar.clientHeight / 2);
-			}
+				const link = e.target.closest("a[href]");
+				if (!link || !sidebar.contains(link)) return;
+
+				const rawHash = getSamePageHash(link);
+				if (!rawHash || rawHash === "#") return;
+
+				e.preventDefault();
+				e.stopPropagation();
+				if (typeof e.stopImmediatePropagation === "function") {
+					e.stopImmediatePropagation();
+				}
+
+				const target = findTargetByHash(sidebar, rawHash) || link;
+				applySidebarTarget(sidebar, target);
+
+				jumpContentToHash(rawHash);
+
+				if (window.location.hash !== rawHash) {
+					history.pushState(null, "", rawHash);
+				}
+
+				setTimeout(function () {
+					ensureLiChainCurrent(target, sidebar);
+				}, 50);
+			}, true);
 		});
 	</script>
 
