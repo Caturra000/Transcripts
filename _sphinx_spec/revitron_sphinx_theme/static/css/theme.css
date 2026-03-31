@@ -3615,34 +3615,47 @@ body{
     left:auto;
     opacity:0
 }
+html, body{
+    height:100%;
+    margin:0;
+    overflow:hidden
+}
 .wy-body-for-nav{
+    height:100%;
+    overflow:hidden;
     background:var(--bg)
 }
-.wy-grid-for-nav{
-    position:absolute;
+.wy-grid-for-nav {
+    position:relative;
     width:100%;
-    height:100%
+    height:100vh
 }
 .wy-nav-side{
     position:fixed;
     top:0;
+
     bottom:0;
     left:0;
-    padding-bottom:0!important;
     width:23rem;
-    overflow-x:hidden;
-    overflow-y:hidden;
-    min-height:100%;
+    padding-bottom:0!important;
+    overflow:hidden;
+    min-height:0;
     color:var(--text);
     background:var(--bg-nav);
     z-index:200
 }
 .wy-side-scroll{
-    width:24.5rem;
     position:relative;
+    width:100%;
+    height:100%;
     overflow-x:hidden;
-    overflow-y:scroll;
-    height:100%
+    overflow-y:auto;
+    overscroll-behavior:contain;
+    scrollbar-width:none;
+    -ms-overflow-style:none
+}
+.wy-side-scroll::-webkit-scrollbar{
+    display:none
 }
 .wy-side-scroll:before{
     content:"";
@@ -3702,13 +3715,17 @@ body{
 .wy-nav-content-wrap{
     margin-left:23rem;
     background:var(--bg);
-    min-height:100%
+    height:100vh;
+    min-height:0;
+    overflow-x:hidden;
+    overflow-y:auto
 }
 .wy-nav-content{
     padding:1.75rem 2.5em 2.5em;
-    height:100%;
     max-width:52rem;
-    margin:auto
+    margin:0 auto;
+    height:auto;
+    min-height:100%
 }
 .wy-body-mask{
     position:fixed;
