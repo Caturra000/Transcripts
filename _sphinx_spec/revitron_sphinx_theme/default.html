@@ -191,6 +191,25 @@
 					SphinxRtdTheme.Navigation.enable({{ 'true' if theme_sticky_navigation|tobool else 'false' }});
 			});
 	</script>
+	<script>
+		// Make it focus on `current`.
+		document.addEventListener("DOMContentLoaded", function () {
+			const sidebar = document.querySelector(".wy-side-scroll");
+			const current = sidebar && (
+				sidebar.querySelector("li.current > a") ||
+				sidebar.querySelector("li.current") ||
+				sidebar.querySelector("a.current")
+			);
+
+			if (sidebar && current) {
+				const sidebarRect = sidebar.getBoundingClientRect();
+				const currentRect = current.getBoundingClientRect();
+
+				const offset = currentRect.top - sidebarRect.top + sidebar.scrollTop;
+				sidebar.scrollTop = Math.max(0, offset - sidebar.clientHeight / 2);
+			}
+		});
+	</script>
 
 	{# Do not conflict with RTD insertion of analytics script #}
 	{% if not READTHEDOCS %}
