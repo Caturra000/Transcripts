@@ -9,6 +9,7 @@
    :glob:
    :caption: ARCHIVES
 
+   archives/advanced-skylake-deep-dive.md
    archives/are-mutexes-slow.md
    archives/xue-wen-mao.md
    archives/wait-is-it-posix-investigating-different-os-and-library-implementations-for-networking.md
