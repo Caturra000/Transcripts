@@ -99,7 +99,6 @@
    archives/more-than-a-rehash.md
    archives/zoned-namespaces-bringing-zones-to-nvme-ssds.md
    archives/cpp-exceptions-for-smaller-firmware.md
-   _sphinx_spec/toctree_workaround/hidden.rst
 
 Welcome
 ==============================
