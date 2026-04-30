@@ -78,14 +78,12 @@ docutils.nodes.make_id = lambda s: re.sub(
     re.sub(r'[^\w\s-]', '', s.strip().lower())
 ).strip('-') or 'id'
 
-def _mark_readme_orphan(app, env):
-    if 'README' in env.found_docs:
-        env.metadata['README']['orphan'] = True
-
-
+# 修复 toctree 警告，README.md 是唯一的例外
 def setup(app):
-    app.connect('env-updated', _mark_readme_orphan)
-
+    def update_readme_metadata(app, env):
+        if 'README' in env.found_docs:
+            env.metadata['README'].update(orphan=True)
+    app.connect('env-updated', update_readme_metadata)
 
 # TODO: 可能需要 robots.txt，但是硬编码 URL 并不妥
 # 考虑在私有的 Sphinx 插件中插入一个生成文件的实现，复用 baseurl 配置
