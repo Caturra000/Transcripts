@@ -9,7 +9,6 @@
    :glob:
    :caption: ARCHIVES
 
-   archives/dangerous-optimizations.md
    archives/signed-integers-considered-harmful.md
    archives/advanced-skylake-deep-dive.md
    archives/are-mutexes-slow.md
