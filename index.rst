@@ -91,7 +91,6 @@
    archives/so-you-think-you-can-hash.md
    archives/can-applications-recover-from-fsync-failures.md
    archives/a-deep-dive-into-dispatching-techniques-in-cpp.md
-   archives/designing-custom-linux-schedulers-with-sched-ext.md
    archives/what-programmers-should-know-about-memory-allocation.md
    archives/unraveling-rcu-usage-mysteries-additional-use-cases.md
    archives/finding-sources-of-latency-on-your-linux-system.md
