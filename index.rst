@@ -9,6 +9,8 @@
    :glob:
    :caption: ARCHIVES
 
+   archives/discovering-a-user-facing-concept.md
+   archives/the-art-of-api-design.md
    archives/signed-integers-considered-harmful.md
    archives/advanced-skylake-deep-dive.md
    archives/are-mutexes-slow.md
