@@ -23,6 +23,7 @@ extensions = [
     "myst_parser",
     "sphinxcontrib.jquery",
     "private_sphinx_sitemap",
+    "private_sphinx_rss",
 ]
 
 autodoc_default_options = {

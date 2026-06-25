@@ -42,6 +42,38 @@
 	{% if theme_canonical_url %}
 		<link rel="canonical" href="{{ theme_canonical_url }}{{ pagename }}.html"/>
 	{% endif %}
+	{# RSS #}
+	<link rel="alternate" type="application/rss+xml" title="Caturra 的中文转录小站" href="/rss.xml" />
+	<style>
+		.wy-menu-vertical .wy-side-rss {
+			display: block;
+			padding: calc(0.4em / 0.85) calc(2.5em / 0.85);
+			margin: 0;
+			font-size: 0.85em;
+			color: var(--nav);
+			text-decoration: none;
+			font-weight: normal;
+			transition: background 0.25s;
+		}
+		.wy-menu-vertical .wy-side-rss:hover {
+			background: var(--bg-nav-hover);
+		}
+		.wy-menu-vertical .wy-side-rss .rss-label {
+			color: #a74310;
+			font-weight: bold;
+		}
+		.wy-menu-vertical .wy-side-rss .rss-icon {
+			display: inline-block;
+			vertical-align: -2px;
+			margin: 0 2px;
+			opacity: 0.5;
+			transition: opacity 0.2s, color 0.2s;
+		}
+		.wy-menu-vertical .wy-side-rss:hover .rss-icon {
+			opacity: 1;
+			color: #f26522;
+		}
+	</style>
 
 	{# JAVASCRIPTS #}
 	{%- block scripts %}
@@ -109,11 +141,15 @@
 							<div class="uni-tooltip-bubble">这是海胆 (uni)，不是栗子！<br>&gt; 点击返回首页</div>
 							</a>
 						</div>
-						{% include "searchbox.html" %}
-					{% endblock %}
-				</div>
-				{% block navigation %}
+					{% include "searchbox.html" %}
+				{% endblock %}
+			</div>
+
+			{% block navigation %}
 				<div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+					<a href="/rss.xml" class="wy-side-rss">
+						<span class="rss-label">[喜报]</span> 本站现已支持<svg class="rss-icon" width="1em" height="1em" viewBox="3.5 3.5 17 17" fill="currentColor"><path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19 7.38 20 6.18 20C5 20 4 19 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1Z"/></svg>RSS
+					</a>
 					{% block menu %}
 						{#
 							The singlehtml builder doesn't handle this toctree call when the
