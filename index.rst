@@ -9,6 +9,8 @@
    :glob:
    :caption: ARCHIVES
 
+   archives/why-stm-can-be-more-than-a-research-toy.md
+   archives/software-transactional-memory-why-is-it-only-a-research-toy.md
    archives/discovering-a-user-facing-concept.md
    archives/the-art-of-api-design.md
    archives/signed-integers-considered-harmful.md
