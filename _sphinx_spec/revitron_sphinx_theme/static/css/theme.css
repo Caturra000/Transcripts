@@ -5185,9 +5185,9 @@ html.dark{
 }
 .uni-tooltip-bubble {
     position: absolute;
-    top: calc(100% - 40px);
-    left: 50%;
-    transform: translateX(-50%) translateY(10px);
+    top: 50%;
+    left: calc(100% + 8px);
+    transform: translateY(-50%) translateX(-6px);
     background: hsl(var(--hue),var(--sat),95%);
     color: var(--text);
     padding: 0.3rem 0.6rem; 
@@ -5199,19 +5199,35 @@ html.dark{
     transition: all 0.1s ease;
     z-index: 100;
 }
+.uni-img-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 40px;
+    height: 100%;
+}
+.uni-tooltip-bubble p {
+    margin: 0;
+    font-size: inherit;
+    line-height: 1.5;
+}
+.uni-tooltip-bubble p:first-child {
+    margin-bottom: 0.45rem;
+}
 .uni-tooltip-bubble::before {
     content: '';
     position: absolute;
-    bottom: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    border-width: 4px; 
+    right: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    border-width: 5px; 
     border-style: solid;
-    border-color: transparent transparent hsl(var(--hue),var(--sat),95%) transparent;
+    border-color: transparent hsl(var(--hue),var(--sat),95%) transparent transparent;
 }
 .uni-img-container:hover a .uni-tooltip-bubble {
     opacity: 1;
-    transform: translateX(-50%) translateY(0);
+    transform: translateY(-50%) translateX(0);
     pointer-events: auto;
 }
 .uni-img-container img {
