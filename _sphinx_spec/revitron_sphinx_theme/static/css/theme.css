@@ -4877,22 +4877,26 @@ pre{
 }
 .wy-side-nav-search input[type=text]{
     display:block;
-    width:90%;
+    width:100%;
     position:relative;
-    border:2px solid var(--border);
+    box-sizing:border-box;
+    border:none;
+    border-bottom:2px solid var(--border);
     background-color:transparent!important;
     -webkit-appearance:none!important;
-    padding:0 1.1rem;
-    margin:0 calc(-1.1rem - 2px);
+    padding:0 1.1rem 0 0;
+    margin:0;
     line-height:2.6rem;
     font-weight:calc(450*var(--font-weight-factor));
     box-shadow:none;
     font-size:inherit;
     color:var(--text);
-    border-radius:100px
+    border-radius:0;
+    outline:none;
+    transition:border-color .3s ease
 }
 .wy-side-nav-search input[type=text]:focus{
-    border-color:var(--text)
+    border-bottom-color:var(--text)
 }
 .wy-side-nav-search input[type=text]:focus::placeholder{
     color:transparent
