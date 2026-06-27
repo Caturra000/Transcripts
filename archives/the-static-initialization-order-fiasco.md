@@ -930,14 +930,17 @@ private:
 当我们想要一个全局变量时，我们将其设为 `manual_init`。智能指针本身（`manual_init` 实例）可以再次被设为 `constinit`（它的构造函数是平凡的）。然后，在 `main` 的第一件事中，我们创建一个 `scoped_initializer`，这将初始化我们的全局状态。然后我们就可以自由使用它们了。如果我们有多个全局变量，我们扩展 `scoped_initializer`，它可以一次接受多个引用。构造函数将初始化它们全部，析构函数将按逆序销毁它们全部。然后我们只需要确保我们以正确的顺序提供它们（以满足依赖关系）。
 
 将其应用于我们的日志记录器：不需要再次更改类。只需更改类型：`constinit atum::manual_init<Logger> logger;`。使我们的 `application` 也必须是 `constinit`（否则它在 `main` 开始前初始化，可能早于手动初始化）。然后在 `main` 中创建一个 `scoped_initializer`：`scoped_initializer init(logger, app);`。它首先初始化 `logger`，然后是 `app`。一切正常。
+
 当然，你应该在你的项目中为**所有**全局变量使用手动初始化，或者**一个都不用**。而且你必须记住初始化它们所有。你有完全的控制权，但这也是最容易出错（error prone）的方法。Atum 库有一个调试模式（debug mode），它将在每次访问全局变量时检查它是否已被初始化。这可以帮助你捕获错误，但仍然可能出错。
 
 这些是针对静态初始化顺序问题的四个主要解决方案。
+
 顺便说一下，**Atum**（埃及神 Atum）是左边那个家伙（演讲中可能展示了图片）。他是埃及的“存在之前和存在之后”之神（god of pre-existence and post-existence）。我发现这对于一个处理 `main` 之前或之后对象的初始化和销毁的库来说，是一个完美的名字。我也真的很喜欢 Atum 的双关联系。它是一个 C++17 单头文件库（single header library）。它对标准库的依赖最小（minimal standard library dependencies）。并且有我提到的调试模式。你可以在那个 URL 找到它。我基本上已经展示了它提供的一切，除了策略（policies）。
 
 所以，对于每个智能指针类，你可以通过指定使用其中一种策略来指定它如何被初始化。例如，这里我们有一个全局的 `manual_init<string>`，它使用花括号初始化（braced initialization）将其初始化为 `"abc"`。这些是我可用的策略。作为参考，这是你如何在提供的内存上调用放置 `new`（placement new）的方法。
 
 有人已经问过关于**单例（singletons）** 的问题。
+
 单例本质上是一种类型，但你只能构造一个全局可用的对象。我所谈论的一切也都适用于单例。当你像通常那样定义它们时：
 
 ```

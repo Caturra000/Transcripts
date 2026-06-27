@@ -15,21 +15,35 @@
 备注二：虽然年代已久，但是应该还有价值，TODO.
 
 <style>
+
     details {
+
         border: 1px solid #ccc;
+
         padding: 10px;
+
         margin: 10px 0;
+
     }
+
     summary {
+
         list-style: none;
+
         cursor: pointer;
+
     }
+
     summary::-webkit-details-marker {
+
         display: none;
+
     }
+
 </style>
 
 <details>
+
   <summary>顺便提供 Gemini 总结版</summary>
 
 <br>
@@ -73,6 +87,7 @@
 *   **一个震撼的案例：** 讲座以一个真实故事作为高潮——一个持续了 **三年**、影响了谷歌全球 **25%** 磁盘服务器的性能问题。该问题表现为磁盘读取延迟呈现250ms、500ms、750ms的周期性尖峰。在通过追踪和可视化所有磁盘的行为后，问题才被定位为内核的一个CPU节流（throttling）机制的错误触发。这个案例雄辩地证明了“先测量，再分析”和数据可视化的巨大威力。
 
 总而言之，这篇讲座不仅指出了当前数据中心面临的严峻挑战，还提供了具体的技术分析和解决思路，对从事系统设计、软件性能优化、云计算和硬件架构的专业人士具有极高的启发价值。
+
 </details>
 
 -------

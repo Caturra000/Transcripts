@@ -328,6 +328,7 @@ my_flat_set.replace(std::move(container));
 所以，`sequence`，我讨厌这么说。我不想这么说。我真的不想这么说。你可以把它看作是 **`vector` 2.0**。哦，我说出来了。我讨厌 `vector` 这个名字，因为 John 昨天讲的所有原因。我也不一定希望人们认为这必须像 `vector`。但是，它有点像 `vector` 2.0。
 
 它有四种内存处理模式。
+
 1.  **`local`**：我们已经谈过这个词的意思了。这就像 `inplace_vector`。事实上，它完全就像 `inplace_vector`。它是 `inplace_vector` 的一个直接替代品。
 2.  **`variable`**：你也可以把它想成 `vector` 模式。我永远不会在纸上这么叫它。这就像 `vector`。它是 `vector` 的一个直接替代品。
 3.  **`fixed`**：像 `local`，只是在堆上分配。所以，固定大小，但在堆上分配。我认为这在很多方面都很有用。特别是它减小了……我们稍后会看到，它把对象本身的大小减小到一个指针。
